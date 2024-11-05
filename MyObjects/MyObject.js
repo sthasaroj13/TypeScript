@@ -15,3 +15,13 @@ myUser({ name: "saroj", isPaid: true });
 function myCourse() {
     return { name: "react.js", price: 2500 };
 }
+myCourse();
+function myUser1(user) {
+    console.log("your name is ".concat(user.name, " and your email is ").concat(user.email, "  "));
+}
+myUser1({ name: "Saroj shrestha", email: "s@s.com", isActive: true });
+function myPoint(pt) {
+    console.log("the coordinate is " + pt.x);
+    console.log("the coordinate is " + pt.y);
+}
+myPoint({ x: 200, y: 100 });
